@@ -102,7 +102,7 @@ To revert back to vanilla foundry we can run `foundryup`
 and to switch back to zksync-foundry we run `foundryup-zksync`
 
 Every ethereum chain has type 0,1,2 txns. In addition to these L2s might have their own type of txns like ZKSYNC has type 113 (0x71)
-Type 2 is the current default type, 0 is legacy
+Type 2 is the current default type and is primarily associated with the introduction of a base fee and priority fee mechanism aimed at improving gas price predictability, 0 is legacy
 
 One advantage of using L2 rollups like ZKS, is that its much cheaper to deploy using them. The contract we deployed in Sepolia would 
 have cost 7$ on the ETH mainnet and actual contracts are a lot larger and bigger.
